@@ -3,8 +3,8 @@
 @import "tailwindcss/utilities";
 
 body {
-  background: linear-gradient(to bottom, #370617, #03071e);
+  background: linear-gradient(to right, #370617, #03071e);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  background-size: 100% 4000%;
+  background-size: 100% 800%;
 }
