@@ -3,70 +3,36 @@ import { FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <div className="w-40 h-40 overflow-hidden py-4">
-        <img
-          src="https://via.placeholder.com/150" // Replace with the path to your logo image
-          alt="Logo"
-          className="w-full h-full object-cover"
-        />
-      </div>
-      {/* Centered text */}
-      <div className="text-center mt-4">
-        <h1 className="text-3xl">Hey, We are</h1>
-        <h1 className="py-2 text-5xl font-extrabold">Idea Incubator MGIT</h1>
-        <h1 className="">Aspiring Student Entrepreneurs</h1>
-      </div>
-      {/* Circular buttons with links */}
-      <div className="flex mt-8 py-10">
-        <a
-          href="https://github.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mx-2  text-white p-4 rounded-full flex items-center justify-center"
-        >
-          <FaGithub className="text-2xl" />
-        </a>
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mx-2  text-white p-4 rounded-full flex items-center justify-center"
-        >
-          <FaInstagram className="text-2xl" />
-        </a>
-        <a
-          href="https://facebook.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mx-2  text-white p-4 rounded-full flex items-center justify-center"
-        >
-          <FaFacebook className="text-2xl" />
-        </a>
-      </div>
+    <section class="bg-black text-white">
+      <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+        <div class="mx-auto max-w-3xl text-center">
+          <h1 class="bg-gradient-to-r from-yellow-300 via-red-500 to-red-900 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
+            Hey we are
+            <span class="sm:block">Idea Incubator Mgit </span>
+          </h1>
 
-      <div className="max-w-xs rounded overflow-hidden shadow-lg flex">
-        <div className="w-2/5">
-          <img
-            className="w-full h-full object-cover"
-            src="https://source.unsplash.com/random/400x300" // Unsplash random image URL
-            alt="Test Image"
-          />
-        </div>
-        <div className="w-3/5 px-6 py-10">
-          <div className="font-extrabold text-4xl mb-2">About Us</div>
-          <p className="text-white text-base">
-            Idea Incubator MGIT, is a student club focused on fostering
-            Leadership in innovation and research amongst MGITans.Found on 17th
-            April 2019 by the Principal, MGIT as its de facto head. Since then
-            it runs with motivation to develop roots of entrepreneurship and
-            innovation in students through nurturing skills like finding and
-            solving real world problem, creative thinking, networking,
-            management.
+          <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+            Aspiring student Enterpreneaurs
           </p>
+
+          <div class="mt-8 flex flex-wrap justify-center gap-4">
+            <a
+              class="block w-full rounded border border-red-600 bg-red-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+              href="#"
+            >
+              Join Us
+            </a>
+
+            <a
+              class="block w-full rounded border border-transparent px-12 py-3 text-sm font-medium text-white hover:bg-red-600 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
+              href="#"
+            >
+              Idea Validate
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
