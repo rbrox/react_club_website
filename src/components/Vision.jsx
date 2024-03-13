@@ -1,7 +1,7 @@
 const Vision = () => {
   return (
     <>
-      <section class="bg-black text-white mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+      <section id ="vision" class="bg-black text-white mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div class="max-w-xl">
             <h2 class="text-3xl font-bold sm:text-4xl">Our Vision</h2>

@@ -1,5 +1,8 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -29,9 +32,26 @@ const Home = () => {
             >
               Idea Validate
             </a>
+        
+          </div>
+          <div class = "w-40 grid grid-cols-3 gap-2">
+          <a href = "https://www.instagram.com/idea.mgit/">
+          <p class="mx-40 ml-40 mt-7  w-40 sm:text-xl/relaxed">
+        <RiInstagramFill className="insta-icon"/>
+          </p>
+          </a>
+          <a href = "https://www.linkedin.com/company/idea-incubator-mgit-r-d/?originalSubdomain=in">
+          <p class="mx-40  mt-7 w-40 sm:text-xl/relaxed">
+          <FaLinkedin />
+          </p>
+          </a>
+          <p class="mx-40  mt-7 w-40 sm:text-xl/relaxed">
+          <FaFacebookSquare />
+          </p>
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

@@ -1,6 +1,6 @@
 const Events = () => {
   return (
-    <section class="bg-black mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <section class="bg-black mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8" id = "events">
       <span class="flex items-center">
         <span class="pr-6">Upcoming Events</span>
         <span class="h-px flex-1 bg-white"></span>
