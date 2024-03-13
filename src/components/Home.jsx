@@ -4,10 +4,9 @@ import { FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
 const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      {/* Big logo cut in a circle */}
-      <div className="w-32 h-32 rounded-full overflow-hidden">
+      <div className="w-40 h-40 overflow-hidden py-4">
         <img
-          src="/logo.png" // Replace with the path to your logo image
+          src="https://via.placeholder.com/150" // Replace with the path to your logo image
           alt="Logo"
           className="w-full h-full object-cover"
         />
